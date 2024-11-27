@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.css": "/movies-explorer-frontend/static/css/main.44816840.chunk.css",
+    "main.js": "/movies-explorer-frontend/static/js/main.cc6ae260.chunk.js",
+    "main.js.map": "/movies-explorer-frontend/static/js/main.cc6ae260.chunk.js.map",
+    "runtime-main.js": "/movies-explorer-frontend/static/js/runtime-main.0216f947.js",
+    "runtime-main.js.map": "/movies-explorer-frontend/static/js/runtime-main.0216f947.js.map",
+    "static/js/2.00b7a5d1.chunk.js": "/movies-explorer-frontend/static/js/2.00b7a5d1.chunk.js",
+    "static/js/2.00b7a5d1.chunk.js.map": "/movies-explorer-frontend/static/js/2.00b7a5d1.chunk.js.map",
+    "static/js/3.4e3bba90.chunk.js": "/movies-explorer-frontend/static/js/3.4e3bba90.chunk.js",
+    "static/js/3.4e3bba90.chunk.js.map": "/movies-explorer-frontend/static/js/3.4e3bba90.chunk.js.map",
+    "index.html": "/movies-explorer-frontend/index.html",
+    "static/css/main.44816840.chunk.css.map": "/movies-explorer-frontend/static/css/main.44816840.chunk.css.map",
+    "static/js/2.00b7a5d1.chunk.js.LICENSE.txt": "/movies-explorer-frontend/static/js/2.00b7a5d1.chunk.js.LICENSE.txt",
+    "static/media/index.css": "/movies-explorer-frontend/static/media/Inter-Regular.e148c4a1.woff",
+    "static/media/Lebenslauf.d274b1ca.pdf": "/movies-explorer-frontend/static/media/Lebenslauf.d274b1ca.pdf",
+    "static/media/NavForm.css": "/movies-explorer-frontend/static/media/account.dda9fc57.svg",
+    "static/media/close.5a52daa7.svg": "/movies-explorer-frontend/static/media/close.5a52daa7.svg",
+    "static/media/MoviesCard.css": "/movies-explorer-frontend/static/media/like_white.ddd3d4b4.svg",
+    "static/media/logo__COLOR_main-1.bca2ab18.svg": "/movies-explorer-frontend/static/media/logo__COLOR_main-1.bca2ab18.svg",
+    "static/media/menu.65534bf2.svg": "/movies-explorer-frontend/static/media/menu.65534bf2.svg",
+    "static/media/myphoto.5efd912e.jpg": "/movies-explorer-frontend/static/media/myphoto.5efd912e.jpg",
+    "static/media/pfeil.1c63a7f5.svg": "/movies-explorer-frontend/static/media/pfeil.1c63a7f5.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.0216f947.js",
+    "static/js/2.00b7a5d1.chunk.js",
+    "static/css/main.44816840.chunk.css",
+    "static/js/main.cc6ae260.chunk.js"
+  ]
+}
