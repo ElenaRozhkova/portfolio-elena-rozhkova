@@ -51,9 +51,7 @@
     color: #FFFFFF;
 }
 
-.navigator__item:last-child {
-    margin-right: 0;
-}
+
 
 @media screen and (max-width: 320px) {
     .navigator {

@@ -68,6 +68,10 @@
     margin-right: 40px;
 }
 
+.menu__header-navigator li {
+    cursor: pointer;
+}
+
 .navigator__item:hover {
     color: #64ffda;
     transition: 0.2s;

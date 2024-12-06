@@ -4,6 +4,7 @@ import { Link } from 'react-router-dom';
 import logo from '../../images/logo__COLOR_main-1.svg';
 import menu from '../../images/menu.svg';
 import NavForm from "../NavForm/NavForm";
+import CustomLogo from "../Main/CustomLogo/CustomLogo";
 
 function Navigation({ setOnForm }) {
   const [form, setForm] = React.useState(false);
@@ -20,7 +21,8 @@ function Navigation({ setOnForm }) {
 
   return (
     <div className={`content navigation ${form ? "navigation_type_dark" : ""}`} >
-      <Link to="/" className="logo_type_desktop"><img src={logo} alt="logoDesktop" className="logo" /></Link>
+
+      <CustomLogo />
       <nav className="menu__header menu__header_size menu__header_type_desktop">
         <Link to="/movies" style={{ textDecoration: 'none' }}><div className="menu__item-movies ">Movies</div></Link>
         <Link to="/saved-movies" style={{ textDecoration: 'none' }}><div className="menu__item-movies  menu__item_style_size">Saved movies</div></Link>
