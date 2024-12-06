@@ -7,7 +7,7 @@ import Anime, { anime } from 'react-anime';
 function Promo() {
   const one = <h1>Hallo, mein Name ist</h1>;
   const two = <h2 className="big-heading">Elena Rozhkova</h2>;
-  const three = <h3 className="big-heading">Webentwicklerin</h3>;
+  const three = <h3 className="big-heading">Webentwickler</h3>;
   const four = (
     <>
       <p className="big-text">
