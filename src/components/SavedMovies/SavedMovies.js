@@ -6,15 +6,15 @@ import Navigation from './../Navigation/Navigation';
 import Preloader from '../Preloader/Preloader';
 
 
-function SavedMovies({ cards,  onCardDelete, savedCardsId, handleChecked, moviesChecked} ) {
+function SavedMovies({ cards, onCardDelete, savedCardsId, handleChecked, moviesChecked }) {
   const [openForm, setOpenForm] = useState(false);
   const [notMovies, setNotMovies] = useState('');
   const [saveMovies, setSaveMovies] = useState(cards);
   const [searchQuery, setSearchQuery] = useState('');
   const [isSubmitting, setIsSubmitting] = useState(false);
-  
-  let deleteMovies=true;
-  const setOnForm=(value)=>{
+
+  let deleteMovies = true;
+  const setOnForm = (value) => {
     setOpenForm(value);
   }
 
@@ -31,8 +31,8 @@ function SavedMovies({ cards,  onCardDelete, savedCardsId, handleChecked, movies
       if (saveCard.length === 0) {
         setNotMovies('Nothing saved');
         setIsSubmitting(false);
-      } 
-      else{
+      }
+      else {
         localStorage.setItem('savemovies', JSON.stringify(saveMovies));
       }
       setIsSubmitting(false);
@@ -45,19 +45,20 @@ function SavedMovies({ cards,  onCardDelete, savedCardsId, handleChecked, movies
   }
 
 
-   return (
-    <div className={`movies ${openForm ? "movies_type_dark":""}`} >
-        <Navigation setOnForm={ setOnForm } />               
-        <SearchForm handleChange={setSearchQuery} 
-                    value={searchQuery} handleClick={handleSubmit} 
-                    handleChecked={handleChecked} moviesChecked={moviesChecked}/>
-        {isSubmitting ? <Preloader /> : 
-        <MoviesCardList 
-          cards={saveMovies} 
-          deleteMovies={deleteMovies} 
-          notMovies={notMovies} 
-          onCardDelete={onCardDelete} 
-          savedCardsId={savedCardsId}/>}
+  return (
+    <div className={`movies ${openForm ? "movies_type_dark" : ""}`} >
+      <Navigation setOnForm={setOnForm} />
+      <SearchForm handleChange={setSearchQuery}
+        value={searchQuery} handleClick={handleSubmit}
+        handleChecked={handleChecked} moviesChecked={moviesChecked} />
+      {isSubmitting ? <Preloader /> :
+        <MoviesCardList
+          cards={saveMovies}
+          deleteMovies={deleteMovies}
+          notMovies={notMovies}
+          onCardDelete={onCardDelete}
+          savedCardsId={savedCardsId}
+        />}
     </div>
   );
 }

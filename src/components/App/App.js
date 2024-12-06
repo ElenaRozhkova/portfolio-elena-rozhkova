@@ -75,6 +75,8 @@ function App() {
     }
   }, [])
 
+
+
   useEffect(() => {
     if (isSubmitting) {
       setNotMovies('');

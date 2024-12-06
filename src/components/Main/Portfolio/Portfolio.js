@@ -21,10 +21,10 @@ function Portfolio() {
             <img src={pfeil} alt="pfeil" className="portfolio__link" />
           </a>
 
-          <Link to="/portfolio-elena-rozhkova/movies" style={{ textDecoration: 'none' }} className="portfolio__project" target='_blank'>
+          {/* <Link to="/movies" style={{ textDecoration: 'none' }} className="portfolio__project" target='_blank'>
             <div className="portfolio__title">Single Page Application mit Verwendung einer API zum Abrufen von Filmdaten</div>
             <img src={pfeil} alt="pfeil" className="portfolio__link" />
-          </Link>
+          </Link>*/}
           <a href="https://elenarozhkova.github.io/chat-app/" className="portfolio__project" target='_blank'>
             <div className="portfolio__title">Realtime Chat App with React, Node.js, Socket.io and MongoDB</div>
             <img src={pfeil} alt="pfeil" className="portfolio__link" />

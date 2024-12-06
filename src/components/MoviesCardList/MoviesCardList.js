@@ -21,7 +21,12 @@ function MoviesCardList({ cards, deleteMovies, notMovies, onCardLike, onCardDele
       window.removeEventListener('resize', changeWindowsWidth);
   });
 
+  useEffect(() => {
+    addCards(); // Direktes Aufrufen von addCards
+  }, []);
+
   const addCards = () => {
+    console.log("addddd")
     const moreCards = cards.slice(currentCards.length, currentCards.length + countMoreCards);
     setCurrentCards([...currentCards, ...moreCards]);
   }
