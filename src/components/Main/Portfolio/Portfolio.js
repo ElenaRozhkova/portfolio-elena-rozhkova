@@ -13,11 +13,11 @@ function Portfolio() {
             <img src={pfeil} alt="pfeil" className="portfolio__link" />
           </a>
           <a href="https://raven51.de/" className="portfolio__project" target='_blank'>
-            <div className="portfolio__title">Raven51: Recruiting-Agentur-Website</div>
+            <div className="portfolio__title">Raven51: Recruiting-Agentur</div>
             <img src={pfeil} alt="pfeil" className="portfolio__link" />
           </a>
           <a href="https://deesdanceclub.de/" className="portfolio__project" target='_blank'>
-            <div className="portfolio__title">Dee's Dance Club: Tanzschul-Website mit Buchungsfunktion </div>
+            <div className="portfolio__title">Dee's Dance Club: Tanzschule</div>
             <img src={pfeil} alt="pfeil" className="portfolio__link" />
           </a>
 
@@ -29,12 +29,12 @@ function Portfolio() {
             <div className="portfolio__title">Realtime Chat App with React, Node.js, Socket.io and MongoDB</div>
             <img src={pfeil} alt="pfeil" className="portfolio__link" />
           </a>
-          <a href="https://elenarozhkova.github.io/germany-travel/" className="portfolio__project" target='_blank'>
-            <div className="portfolio__title">Adaptive Website Travel</div>
+          <a href="https://www.hbv-basketball.de/" className="portfolio__project" target='_blank'>
+            <div className="portfolio__title">HBV: Basketball-Verband</div>
             <img src={pfeil} alt="pfeil" className="portfolio__link" />
           </a>
           <a href="https://elenarozhkova.github.io/How-To-Learn-Yandex/" className="portfolio__project" target='_blank'>
-            <div className="portfolio__title">Statische Website mit Animation</div>
+            <div className="portfolio__title">How to Learn: Animierte Website</div>
             <img src={pfeil} alt="pfeil" className="portfolio__link" />
           </a>
 
