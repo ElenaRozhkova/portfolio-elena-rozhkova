@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/portfolio-elena-rozhkova/static/css/main.c73bfb66.chunk.css",
-    "main.js": "/portfolio-elena-rozhkova/static/js/main.9148697a.chunk.js",
-    "main.js.map": "/portfolio-elena-rozhkova/static/js/main.9148697a.chunk.js.map",
+    "main.css": "/portfolio-elena-rozhkova/static/css/main.18df7d6e.chunk.css",
+    "main.js": "/portfolio-elena-rozhkova/static/js/main.e9289722.chunk.js",
+    "main.js.map": "/portfolio-elena-rozhkova/static/js/main.e9289722.chunk.js.map",
     "runtime-main.js": "/portfolio-elena-rozhkova/static/js/runtime-main.8ac6ea84.js",
     "runtime-main.js.map": "/portfolio-elena-rozhkova/static/js/runtime-main.8ac6ea84.js.map",
-    "static/js/2.98243284.chunk.js": "/portfolio-elena-rozhkova/static/js/2.98243284.chunk.js",
-    "static/js/2.98243284.chunk.js.map": "/portfolio-elena-rozhkova/static/js/2.98243284.chunk.js.map",
+    "static/js/2.8d3153c6.chunk.js": "/portfolio-elena-rozhkova/static/js/2.8d3153c6.chunk.js",
+    "static/js/2.8d3153c6.chunk.js.map": "/portfolio-elena-rozhkova/static/js/2.8d3153c6.chunk.js.map",
     "static/js/3.6a7e4612.chunk.js": "/portfolio-elena-rozhkova/static/js/3.6a7e4612.chunk.js",
     "static/js/3.6a7e4612.chunk.js.map": "/portfolio-elena-rozhkova/static/js/3.6a7e4612.chunk.js.map",
     "index.html": "/portfolio-elena-rozhkova/index.html",
-    "static/css/main.c73bfb66.chunk.css.map": "/portfolio-elena-rozhkova/static/css/main.c73bfb66.chunk.css.map",
-    "static/js/2.98243284.chunk.js.LICENSE.txt": "/portfolio-elena-rozhkova/static/js/2.98243284.chunk.js.LICENSE.txt",
+    "static/css/main.18df7d6e.chunk.css.map": "/portfolio-elena-rozhkova/static/css/main.18df7d6e.chunk.css.map",
+    "static/js/2.8d3153c6.chunk.js.LICENSE.txt": "/portfolio-elena-rozhkova/static/js/2.8d3153c6.chunk.js.LICENSE.txt",
     "static/media/index.css": "/portfolio-elena-rozhkova/static/media/Inter-Regular.e148c4a1.woff",
-    "static/media/Lebenslauf.d274b1ca.pdf": "/portfolio-elena-rozhkova/static/media/Lebenslauf.d274b1ca.pdf",
+    "static/media/Lebenslauf.7f79c1d5.pdf": "/portfolio-elena-rozhkova/static/media/Lebenslauf.7f79c1d5.pdf",
     "static/media/NavForm.css": "/portfolio-elena-rozhkova/static/media/account.dda9fc57.svg",
     "static/media/close.5a52daa7.svg": "/portfolio-elena-rozhkova/static/media/close.5a52daa7.svg",
     "static/media/MoviesCard.css": "/portfolio-elena-rozhkova/static/media/like_white.ddd3d4b4.svg",
@@ -24,8 +24,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.8ac6ea84.js",
-    "static/js/2.98243284.chunk.js",
-    "static/css/main.c73bfb66.chunk.css",
-    "static/js/main.9148697a.chunk.js"
+    "static/js/2.8d3153c6.chunk.js",
+    "static/css/main.18df7d6e.chunk.css",
+    "static/js/main.e9289722.chunk.js"
   ]
 }

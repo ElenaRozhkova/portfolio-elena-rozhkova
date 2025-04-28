@@ -1,14 +1,16 @@
-import React from 'react'
-import './Preloader.css'
+import React from 'react';
+import styles from './Preloader.module.css'; // CSS Modules verwenden
+import loaderGif from './1487.gif';
 
 const Preloader = () => {
     return (
-        <div className="preloader">
-            <div className="preloader__container">
-                <span className="preloader__round"></span>
+        <div className={styles.preloader}>
+            <div className={styles.container}>
+                {/*<div className={styles.loader}></div>*/}
+                <img src={loaderGif} alt="Ladeanimation" />
             </div>
         </div>
-    )
+    );
 };
 
-export default Preloader
+export default Preloader;

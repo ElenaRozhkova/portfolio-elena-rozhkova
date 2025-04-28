@@ -76,11 +76,11 @@ const Hero = () => {
         <StyledHeroSection>
             {true ? (
                 <Anime
-                    easing="easeOutExpo"
-                    duration={1500}
-                    delay={anime.stagger(400, { start: 6000 })}
-                    translateY={[50, 0]}
                     opacity={[0, 1]}
+                    translateY={[20, 0]}
+                    easing="easeInOutQuad"
+                    duration={700}
+                    delay={anime.stagger(100)}
                 >
                     {items.map((item, i) => (
                         <div key={i}>{item}</div>
@@ -90,11 +90,11 @@ const Hero = () => {
                 <TransitionGroup component={null}>
                     {isMounted && (
                         <Anime
-                            easing="easeOutExpo"
-                            duration={1500}
-                            delay={anime.stagger(400)}
-                            translateY={[0, 0]}
                             opacity={[0, 1]}
+                            translateY={[20, 0]}
+                            easing="easeInOutQuad"
+                            duration={700}
+                            delay={anime.stagger(100)}
                         >
                             {items.map((item, i) => (
                                 <CSSTransition key={i} classNames="fadeup">

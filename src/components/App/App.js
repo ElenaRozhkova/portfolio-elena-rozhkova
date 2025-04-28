@@ -1,6 +1,6 @@
 import './App.css';
 import Main from '../Main/Main';
-import Footer from '../Footer/Footer';
+
 import SavedMovies from '../SavedMovies/SavedMovies';
 import React, { useEffect, useState } from 'react';
 import { Route, Switch, useHistory, Redirect } from 'react-router-dom';
@@ -283,7 +283,7 @@ function App() {
           <Switch>
             <Route path="/" exact>
               <Main loggedIn={loggedIn} />
-              <Footer />
+
             </Route>
 
             <Route path="/signup">
@@ -331,7 +331,7 @@ function App() {
 
             <Route path="*">
               <Main loggedIn={loggedIn} />
-              <Footer />
+
             </Route>
           </Switch>
           <InfoTooltip isOpen={isInfoTooltipOpen}

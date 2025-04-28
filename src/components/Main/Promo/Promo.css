@@ -48,20 +48,20 @@
 .promo h1 {
     margin: 0px 0px 30px 4px;
     color: #64ffda;
-    font-family: 'circular';
-    font-size: 14px;
+    font-family: 'Inter';
+    font-size: 20px;
     font-weight: 400;
     text-align: left;
 }
 
 .big-heading {
-    font-weight: 600;
+    font-weight: 500;
     color: #ccd6f6;
     line-height: 1.1;
     margin: 0px;
     font-size: 80px;
     text-align: left;
-    font-family: 'circular';
+    font-family: 'Inter';
 }
 
 .big-text {
@@ -137,7 +137,7 @@
     .promo__text {
         font-size: 29px;
         line-height: 39px;
-        max-width: 300px;
+
         width: 100%;
     }
 }

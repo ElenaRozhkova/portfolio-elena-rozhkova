@@ -124,6 +124,7 @@
 .aboutme__photo-container {
     position: relative;
     max-width: 300px;
+    cursor: pointer;
 }
 
 
@@ -134,8 +135,8 @@
     position: relative;
     width: 100%;
     border-radius: 4px;
-    background-color: #64ffda;
-    max-height: 299px;
+
+
 }
 
 .aboutme__photo-wrapper::before {
@@ -159,8 +160,8 @@
 .aboutme__photo-wrapper img {
     position: relative;
     border-radius: 4px;
-    mix-blend-mode: multiply;
-    filter: grayscale(100%) contrast(1);
+    mix-blend-mode: normal;
+    filter: none;
     transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1);
 }
 

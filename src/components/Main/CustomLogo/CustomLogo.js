@@ -3,6 +3,7 @@ import React from 'react';
 const CustomLogo = ({ fillColor = "#64ffda", width = "50px", height = "50px" }) => {
     return (
         <svg
+            style={{ cursor: 'pointer' }}
             width={width}
             height={height}
             viewBox="0 0 100 100"
