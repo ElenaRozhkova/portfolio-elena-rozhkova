@@ -20,11 +20,13 @@
     align-items: center;
     height: 100vh;
 }
+
 .form__open {
     display: flex;
     justify-content: center;
     z-index: 2;
 }
+
 .close-image {
     width: 22px;
     height: 22px;
@@ -42,12 +44,14 @@
 .form__item:hover {
     text-decoration: underline;
 }
+
 .menu__item-movies {
     font-style: normal;
     font-weight: 500;
     font-size: 14px;
     line-height: 18px;
 }
+
 .menu__button-movies:hover {
     opacity: 0.8;
 }
@@ -85,20 +89,22 @@
     cursor: pointer;
 }
 
-@media screen and (max-width: 400px) {  
+@media screen and (max-width: 400px) {
 
     .menu__item {
-        font-size: 10px;
+        font-size: 12px;
         line-height: 16px;
     }
 
     .menu__header_type_tablet {
         margin-left: auto;
     }
+
     .form__menu {
         margin-bottom: 48px;
     }
+
     .menu__button-movies_type_mobile {
         margin-top: 100px;
     }
-  }
+}
