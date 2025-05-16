@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import './Main.css';
+
 import { Link } from 'react-scroll';
 import Promo from './Promo/Promo';
 import AboutMe from './AboutMe/AboutMe';
@@ -67,13 +68,11 @@ function Main() {
               </ul>
               <a
                 style={{ textDecoration: 'none' }}
-                className="menu__item menu__item_dark"
+                className="menu__button menu__item "
                 href="mailto:elenaroschkowa@gmx.de"
                 rel="noopener noreferrer"
               >
-                <button className="menu__button">
-                  E-Mail senden
-                </button>
+                E-Mail senden
               </a>
             </nav>
             <div className="side__right">

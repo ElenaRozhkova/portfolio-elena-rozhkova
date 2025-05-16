@@ -16,6 +16,8 @@
     width: var(--size);
     height: var(--size);
     position: relative;
+    display: grid;
+    place-items: center;
 }
 
 .loader {
